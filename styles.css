@@ -1,0 +1,32 @@
+#title {
+    font-style: italic;
+}
+
+th {
+    font-weight: bold;
+}
+
+.red-color {
+    color: red!important;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Adjust as needed */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Adjust color as needed */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #666; /* Adjust hover color as needed */
+}

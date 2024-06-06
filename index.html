@@ -3,19 +3,111 @@
 <head>
   <meta charset="UTF-8">
   <title>Zusammenfassung Modul 293</title>
-
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    
-  </header>
+<header>
   <nav>
-    
+    <ul>
+      <li><a href="arrow-refresh-reload-icon-30.png" target="_blank">link to reload img</a></li>
+      <li><a href="styles.css" download >Download css file</a></li>
+      <li><a href="https://www.w3schools.com/">w3schools</a></li>
+    </ul>
   </nav>
-  <h1>Zusammenfassung Modul 293</h1>
+</header>
+<h1>Zusammenfassung Modul 293</h1>
 
-  <footer>
-    
-  </footer>
+<main>
+  <article>
+    <section>
+      <h2 id="title">Title</h2>
+      <strong>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis maximus elit, a faucibus ipsum suscipit sit amet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam nec rutrum urna, sed rhoncus ipsum</p>
+      </strong>
+    </section>
+    <section>
+      <table>
+        <tr>
+          <th>Month</th>
+          <th>Day</th>
+        </tr>
+        <tr>
+          <td>January</td>
+          <td>10th</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>11th</td>
+        </tr>
+      </table>
+    </section>
+  </article>
+  <a href="index.html"><img src="arrow-refresh-reload-icon-30.png" style="width: 2%; height: auto;" alt="reload"></a>
+  <p class="red-color">this is example text</p>
+  <a href="https://www.w3schools.com/html/">w3schools</a>
+
+  <form action="https://it.bzz.ch/demo/formdata/index.php" method="post">
+    <label for="username">Username</label>
+    <input id="username" name="username" type="text" minlength="3" maxlength="25">
+
+    <fieldset>
+      <legend>Drinks you like</legend>
+      <input type="checkbox" name="drink[]" value="wasser" id="check1">
+      <label for="check1">Wasser</label>
+      <input type="checkbox" name="drink[]" value="cola" id="check2">
+      <label for="check2">Cola</label>
+      <input type="checkbox" name="drink[]" value="sprite" id="check3">
+      <label for="check3">Sprite</label>
+      <input type="checkbox" name="drink[]" value="fanta" id="check4">
+      <label for="check4">Fanta</label>
+      <input type="checkbox" name="drink[]" value="pepsi" id="check5">
+      <label for="check5">Pepsi</label>
+      <input type="checkbox" name="drink[]" value="ice tea" id="check6" >
+      <label for="check6">Ice Tea</label>
+    </fieldset>
+
+
+
+    <button type="reset">Zurücksetzten</button>
+    <button type="submit">Absenden</button>
+  </form>
+  <p>
+    <label> Cantons
+      <input type="search" list="cantons" />
+      <datalist id="cantons">
+        <option value="AG">Aargau</option>
+        <option value="AR">Appenzell Ausserrhoden</option>
+        <option value="AI">Appenzell Innerrhoden</option>
+        <option value="BL">Basel-Landschaft</option>
+        <option value="BS">Basel-Stadt</option>
+        <option value="BE">Bern</option>
+        <option value="FR">Freiburg</option>
+        <option value="GE">Genf</option>
+        <option value="GL">Glarus</option>
+        <option value="GR">Graubünden</option>
+        <option value="JU">Jura</option>
+        <option value="LU">Luzern</option>
+        <option value="NE">Neuenburg</option>
+        <option value="NW">Nidwalden</option>
+        <option value="OW">Obwalden</option>
+        <option value="SG">St. Gallen</option>
+        <option value="SH">Schaffhausen</option>
+        <option value="SZ">Schwyz</option>
+        <option value="SO">Solothurn</option>
+        <option value="TG">Thurgau</option>
+        <option value="TI">Tessin</option>
+        <option value="UR">Uri</option>
+        <option value="VD">Waadt</option>
+        <option value="VS">Wallis</option>
+        <option value="ZG">Zug</option>
+        <option value="ZH">Zürich</option>
+      </datalist>
+    </label>
+  </p>
+</main>
+
+<footer>
+
+</footer>
 </body>
 </html>
